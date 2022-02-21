@@ -12,7 +12,7 @@
   }
 
   /*** UTILS ***/ 
-  $font-title: "Shrikhand", cursive;
+  $font-title: "Shrikhand" "cursive";
   $text-desc: #353535;
   $color-primary: #9356dc;
   $color-secondary: #ff79da;
@@ -50,7 +50,6 @@
         width: 100%;
         object-fit: cover;
         max-height: 550px;
-        transition-duration: 0.4s;
         }
       }
     }
@@ -70,8 +69,6 @@
           &--title {
             > h2 {
               padding: 1rem 0.5rem 1rem 0;
-              transition-duration: 0.2s;
-              width: fit-content;
               > a {
                 text-decoration: none;
                 color: white;
