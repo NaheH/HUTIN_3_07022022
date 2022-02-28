@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/base.css">
-    <link rel="stylesheet" href="CSS/layout.css">
-    <link rel="stylesheet" href="CSS/pages.css">
-    <link rel="stylesheet" href="CSS/utils.css">
+    <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/f09bdbeec6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,19 +12,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./src/images/logo/favicon.ico" />
     <title>Le délice des sens - Oh My Food</title>
 </head>
 <body>
     <header class="header">
         <div class="header__top">
         <a href="index.html" class="header__top--back"><i class="fas fa-arrow-left"></i></a>
-        <a class="logolink" href="index.html"><img id="top" src="images/logo/ohmyfood@2x.svg" alt="logo-ohmyfood"></a>
+        <a class="logolink" href="index.html"><img id="top" src="/images/logo/ohmyfood@2x.svg" alt="logo-ohmyfood"></a>
     </div>
         <div class="header__cover">
-            <img src="images/restaurants/palette-du-gout.jpg" alt="La palette du goût">
+            <img src="./src/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="La palette du goût">
         </div>
         </header>
-<!-- SECTION ORDER -->
+<!-- Section commandes -->
         <section class="order">
             <div class="order__top">
                 <h1>Le délice des sens</h1>
@@ -36,16 +34,16 @@
                     <i class="fas fa-heart"></i>
                 </div>
             </div>
-            <!-- TITLE STARTER-->
+            <!-- Titre entrées -->
             <div class="menu">
             <div class="repas">
             <div class="repas__title">
                 <h2>Entrées</h2>
                 <div class="repas__title--underline"></div>
             </div>
-            <!-- STARTERS -->
+            <!-- Entrées -->
             <div class="repas__starter">
-            <!-- STARTER 1 -->
+            <!-- Entrée 1 -->
 
 
             <a class="repas__card card1" href="">
@@ -58,7 +56,7 @@
             </a>
 
 
-            <!-- STARTER 2 -->
+            <!-- Entrée 2 -->
             <a class="repas__card card2" href="">
                 <h2>Bouchée de homard croustillant</h2>
                 <div class="repas__card--info">
@@ -67,7 +65,7 @@
                 </div>
                 <div class="repas__card--info--check"><div class="repas__card--info--checkicon"><i class="fas fa-check"></i></div></div>
             </a>
-            <!-- STARTER 3 -->
+            <!-- Entrée 3 -->
             <a class="repas__card card3" href="">
                 <h2>Velouté de cèpes</h2>
                 <div class="repas__card--info">
@@ -80,16 +78,16 @@
             </div>
         </div>
 
-        <!-- TITLE MEALS -->
+        <!-- Titre Plats -->
 
         <div class="repas">
             <div class="repas__title">
                 <h2>Plats</h2>
                 <div class="repas__title--underline"></div>
             </div>
-            <!-- MEALS -->
+            <!-- Plats -->
             <div class="repas__starter">
-            <!-- MEAL 1 -->
+            <!-- Plat 1 -->
 
 
             <a class="repas__card card4" href="">
@@ -102,7 +100,7 @@
             </a>
 
 
-            <!-- MEAL 2 -->
+            <!-- Plat 2 -->
             <a class="repas__card card5" href="">
                 <h2>Langouste rôtie</h2>
                 <div class="repas__card--info">
@@ -111,7 +109,7 @@
                 </div>
                 <div class="repas__card--info--check"><div class="repas__card--info--checkicon"><i class="fas fa-check"></i></div></div>
             </a>
-            <!-- MEAL 3 -->
+            <!-- Plat 3 -->
             <a class="repas__card card6" href="">
                 <h2>Côte de boeuf Angus</h2>
                 <div class="repas__card--info">
@@ -125,16 +123,16 @@
         </div>
 
 
-        <!-- TITLE DESSERTS -->
+        <!-- Titre Desserts -->
 
         <div class="repas">
             <div class="repas__title">
                 <h2>Desserts</h2>
                 <div class="repas__title--underline"></div>
             </div>
-            <!-- DESSERT -->
+            <!-- Dessert -->
             <div class="repas__starter">
-            <!-- DESSERT 1 -->
+            <!-- Dessert 1 -->
 
 
             <a class="repas__card card7" href="">
@@ -147,7 +145,7 @@
             </a>
 
 
-            <!-- DESSERT 2 -->
+            <!-- Dessert 2 -->
             <a class="repas__card card8" href="">
                 <h2>Crème brulée </h2>
                 <div class="repas__card--info">
@@ -156,7 +154,7 @@
                 </div>
                 <div class="repas__card--info--check"><div class="repas__card--info--checkicon"><i class="fas fa-check"></i></div></div>
             </a>
-            <!-- DESSERT 3 -->
+            <!-- Dessert 3 -->
             <a class="repas__card card9" href="">
                 <h2>Tiramisu</h2>
                 <div class="repas__card--info">
@@ -172,7 +170,7 @@
         <div class="order__btn"><button class="order__btn--order">Commander</button></div>
 
         </section>
-<!-- FOORTER -->
+<!-- Footer -->
     <footer class="footer">
         <div class="footer__block">
             <div class="footer__link">
@@ -180,7 +178,7 @@
              <a href=""><i class="fas fa-utensils"></i>Proposer un restaurant</a>
              <a href=""><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
              <a href="">Mentions légales</a>
-             <a href="mailto:mail-contact@ohmyfood.fr">Contact</a>
+             <a href="mailto:contact@ohmyfood.fr">Contact</a>
              <a href="#top">Revenir en haut de page</a>
          </div>
         </div>
