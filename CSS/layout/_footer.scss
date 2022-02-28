@@ -1,0 +1,67 @@
+.footer {
+    background-color: #353535;
+    padding: 1.8rem 1.8rem 4rem 1.8rem;
+    &__block {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1440px;
+      margin: auto;
+    }
+    &__link {
+      margin: auto;
+      &--title {
+        > h2 {
+          padding: 1rem 0.5rem 1rem 0;
+          transition-duration: 0.2s;
+          width: fit-content;
+          > a {
+            text-decoration: none;
+            color: white;
+            font-family: $font-title;
+            font-weight: 100;
+            font-size: 1.5em;
+          }
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.02);
+            transition-duration: 0.2s;
+            background-image: linear-gradient(
+              to right,
+              $color-secondary,
+              $color-primary
+            );
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+          }
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      font-size: 1.2em;
+      line-height: 2rem;
+  
+      > a {
+        text-decoration: none;
+        color: white;
+        transition-duration: 0.2s;
+        width: fit-content;
+        > i {
+          font-size: 18px;
+        }
+        > .fa-utensils {
+          padding-right: 1rem;
+        }
+        > .fa-hands-helping {
+          padding-right: 0.55rem;
+        }
+        &:hover {
+          color: $color-primary;
+          transition-duration: 0.2s;
+         }
+     }
+   }
+}

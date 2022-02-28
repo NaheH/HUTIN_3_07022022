@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @media screen and (min-width: 702px) {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
+  
+      max-width: 1440px;
+      margin: auto;
+    }
+    > .logo {
+      align-self: center;
+      align-self: center;
+      width: 200px;
+      padding: 1.5rem 0 1rem 0;
+      grid-column-start: 2;
+      margin: auto;
+    }
+   }
