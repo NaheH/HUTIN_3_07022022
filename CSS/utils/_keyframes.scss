@@ -1,0 +1,45 @@
+@keyframes move-card {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100;
+      transform: translateY(-45px);
+    }
+  }
+
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spinreverse {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  @keyframes stopspin {
+    100% {
+      opacity: 0;
+      scale: 0;
+      z-index: -1;
+      -webkit-transform: translate3d(0, 0, -300px);
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
