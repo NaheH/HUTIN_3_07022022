@@ -336,8 +336,8 @@ body .main-menu h2 {
           animation-name: time-animation;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   top: 0;
