@@ -1,6 +1,15 @@
-body, html {
-    font-family: Roboto, Arial, Helvetica;
-}
-h1, h5 {
-    font-family: Shrikhand, Arial, Helvetica;
+
+body
+{
+    font-family: Roboto, sans-serif;
+
+    header h1
+    {
+        font-family: shrikhand;
+    }
+
+    .main-menu h2
+    {
+        font-family: shrikhand;
+    }
 }

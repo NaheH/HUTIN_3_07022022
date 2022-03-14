@@ -1,36 +1,121 @@
-.header {
-  &__top {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1440px;
-    margin: auto;
-    &--back {
-      grid-column-start: 1;
-      padding: 1.5rem;
-      font-size: 1.3em;
-      text-decoration: none;
-      color: $text-desc;
-      margin: auto;
+/* VERSION ACCUEIL */
+
+header
+{
+    h1
+    {
+        color: black;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 20px 0px 10px 0px;
     }
-    > .logolink {
-      grid-column-start: 2;
-      padding: 1.5rem 0 1rem 0;
-      margin: auto;
+        
+    a:link
+    {
+        text-decoration: none;
     }
-  }
-  &__cover {
-    width: 100%;
-    overflow: hidden;
-    > img {
-      width: 100%;
-      object-fit: cover;
-      max-height: 550px;
-      transition-duration: 0.4s;
-      @media screen and (max-width: 400px) {
-        transition-duration: 0.4s;
-        transform: scale(1.1);
-      }
+}
+
+
+
+
+
+/* VERSION RESTAURANT */
+
+
+/* Pour mobiles */
+
+body 
+{
+    margin: 0px;
+}
+
+#header-menu
+{
+    h1
+    {
+        color: black;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 20px 0px 10px 0px;
     }
-  }
+
+    a:link
+    {
+        text-decoration: none;
+    }
+
+    .fa-arrow-left
+    {   
+        color:rgb(59, 58, 58);
+        font-size: 1.4em;
+        position: absolute;
+        left: 20px;
+        top: 37px;
+    }
+}
+
+
+
+/* Pour desktop */
+@media screen and (min-width: 992px)
+{
+    #header-menu
+    {
+        .fa-arrow-left
+        {
+            padding: 0px 0px 0px 75px;
+        }
+    }
+}
+
+/* Pour mobiles */
+#localization 
+{
+    text-align: center;
+    background: linear-gradient(white, #e7e6e6);
+        
+    form
+    {
+        background-color: #F2F2F2;
+        box-shadow: 0px 15px 8px -10px #c9c7c7 inset;
+        display: flex;
+        justify-content: center;
+        padding: 8px 0px;
+
+        #search 
+        {
+            background-color: transparent;
+            border: none;
+        }
+
+        #search::placeholder
+        {
+            color: black;
+            font-weight: bold;
+        }
+    }
+
+    h2, p
+    {
+        text-align: center;
+    }
+
+    h2 
+    {
+        margin: 40px 50px 0px 50px;
+    }
+
+    p 
+    {
+        margin: 20px 30px 30px 30px;
+        color: gray;
+        font-weight: 100;
+    }
+
+    #button_restaurant 
+    {
+        display: inline-block;
+        margin-bottom: 50px;
+    }
 }
