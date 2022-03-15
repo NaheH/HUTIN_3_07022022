@@ -614,7 +614,7 @@ body .main-menu h2 {
         grid-template-columns: 33% 33% 33%;
     -ms-grid-rows: 100px 1fr 200px;
         grid-template-rows: 100px 1fr 200px;
-    margin: -60px 60px 0px 60px;
+    margin: -80px 0px 0px 0px;
   }
   .main-menu .menu .flat {
     opacity: 0;
@@ -906,7 +906,7 @@ body .main-menu h2 {
 /* Pour desktop */
 @media screen and (min-width: 992px) {
   .restaurants {
-    margin: 0px 60px;
+    margin: -20px 0px 0px 0px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
