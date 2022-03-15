@@ -16,8 +16,9 @@
     background: $linear-gradient;
     -webkit-background-clip: text;
     color: transparent;
+    opacity: 0;
     animation-name: padding-heart;
-    animation-duration: 1s;
+    animation-duration: 0.2s;
     animation-timing-function: ease-in;
     animation-fill-mode: both;
 }

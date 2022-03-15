@@ -315,7 +315,6 @@ body .main-menu h2 {
           filter: brightness(150%);
   -webkit-box-shadow: 0px 4px 8px 3px #525050;
           box-shadow: 0px 4px 8px 3px #525050;
-  color: #4f02ac;
 }
 
 #loading-spinner {
@@ -336,8 +335,8 @@ body .main-menu h2 {
           animation-name: time-animation;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   top: 0;
@@ -563,10 +562,11 @@ body .main-menu h2 {
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   color: transparent;
+  opacity: 0;
   -webkit-animation-name: padding-heart;
           animation-name: padding-heart;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-fill-mode: both;
@@ -707,10 +707,11 @@ body .main-menu h2 {
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   color: transparent;
+  opacity: 0;
   -webkit-animation-name: padding-heart;
           animation-name: padding-heart;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-fill-mode: both;
