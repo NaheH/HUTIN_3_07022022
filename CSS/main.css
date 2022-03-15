@@ -311,8 +311,6 @@ body .main-menu h2 {
 }
 
 .button-gradient:hover {
-  -webkit-filter: brightness(150%);
-          filter: brightness(150%);
   -webkit-box-shadow: 0px 4px 8px 3px #525050;
           box-shadow: 0px 4px 8px 3px #525050;
 }
