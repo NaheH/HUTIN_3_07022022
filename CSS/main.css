@@ -477,9 +477,7 @@ body .main-menu h2 {
 
 /* Pour desktop */
 @media screen and (min-width: 992px) {
-  #bloc-page {
-    max-width: 1450px;
-  }
+ 
   #bloc-page #company-presentation {
     margin: 0px 60px;
   }
