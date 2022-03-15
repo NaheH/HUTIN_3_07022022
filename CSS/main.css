@@ -502,12 +502,7 @@ body .main-menu h2 {
   }
 }
 
-/* Pour desktop grand format */
-@media screen and (min-width: 1450px) {
-  #bloc-page {
-    margin: auto;
-  }
-}
+
 
 /* Pour mobiles */
 .main-menu img {
